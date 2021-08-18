@@ -23,6 +23,7 @@
 .title {
     font-size: 35px;
     position: absolute;
+    text-transform: capitalize;
     top: 25px;
 }
 
