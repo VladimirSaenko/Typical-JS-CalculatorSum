@@ -21,10 +21,10 @@
 }
 
 .title {
-    font-size: 35px;
+    top: 0;
+    font-size: 55px;
     position: absolute;
     text-transform: capitalize;
-    top: 25px;
 }
 
 .mainbox {
@@ -47,8 +47,7 @@
 }
 
 .mainbox p {
-    font-size: 25px;
-    margin-bottom: 5px;
+    font-size: 30px;
 }
 
 .ul1 {
@@ -96,12 +95,7 @@
         align-items: center;
     }
 
-    .title {
-        top: 5px;
-    }
-
-    .mainbox p {
-        font-size: 35px;
-        margin: 15px 0px;
+    .title, .mainbox p {
+        display: none;
     }
 }
