@@ -11,23 +11,11 @@ calculateButton.addEventListener('click', function() {
     let sum = "";
     sum = `${input1.value}${input2.value}`;
     resultInput.value = sum;
+    title.style.color = 'white';
+    title.style.textTransform = 'capitalize';
+    title.innerText = 'Typical JS Calculator';
     if(input1.value == "" && input2.value == "") {
         sum = 0;
         resultInput.value = sum;
-    }
-    if(resultInput.value == 66) {
-        title.style.color = 'blue';
-        title.style.textTransform = 'uppercase';
-        title.innerText = 'Execute order 66';
-    }
-    if(resultInput.value == 300) {
-        title.style.color = 'yellow';
-        title.style.textTransform = 'uppercase';
-        title.innerText = 'This is Sparta!';
-    }
-    else {
-        title.style.color = 'white';
-        title.style.textTransform = 'capitalize';
-        title.innerText = 'Typical JS Calculator';
     }
 });
