@@ -1,4 +1,4 @@
-# Typical-JS-CalculatorSum
+# Typical-JS-MemCalculatorSum
 
 ## Типичный калькулятор на JS из мема | Typical calculator sum in JS from meme
 
